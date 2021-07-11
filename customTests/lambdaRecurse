@@ -1,0 +1,9 @@
+let
+	x = fn (y:int):int => y
+in
+	let
+		x = fn (z:int):int => if z EQUALS 0 then NEGATE 2 else (x z MINUS 1) fi
+	in
+		(x 1)
+	end
+end

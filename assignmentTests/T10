@@ -1,0 +1,6 @@
+let X = TRUE in
+	let Y = FALSE
+in
+X AND Y OR FALSE
+end
+end

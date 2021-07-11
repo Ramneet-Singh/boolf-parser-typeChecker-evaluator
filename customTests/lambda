@@ -1,0 +1,1 @@
+fn (x:int):bool => if TRUE then x LESSTHAN 2 else x GREATERTHAN 6 fi

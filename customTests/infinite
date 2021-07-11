@@ -1,0 +1,2 @@
+fun f(x:int):int => (f x MINUS 1);
+(f 1)

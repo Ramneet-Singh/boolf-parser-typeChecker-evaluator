@@ -1,0 +1,2 @@
+let x = 3 in x PLUS 5 end;
+fn (y:int):int => y PLUS x

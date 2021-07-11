@@ -1,0 +1,9 @@
+let
+	x = 1
+in
+	let
+		g = 3
+	in
+		if x EQUALS g then TRUE else g fi
+	end
+end

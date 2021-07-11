@@ -1,0 +1,5 @@
+let
+x=3
+in
+(x fn (y:int):bool->bool => fn (f:bool):bool => if y EQUALS 0 AND f then f else NOT f fi)
+end

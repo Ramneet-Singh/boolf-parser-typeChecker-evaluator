@@ -1,0 +1,12 @@
+fun f(x:int):int => x;
+fun f(x:int):int => 
+	if x LESSTHAN 1 then 0 PLUS 1
+	else x TIMES (f x MINUS (1 TIMES 1))
+	fi;
+(f 5);
+fn (x:int->(bool->bool)):bool->bool => (x 1);
+let
+	x = fn (y:int):int => 2 TIMES y
+in
+	(x 10)
+end

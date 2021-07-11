@@ -1,0 +1,13 @@
+local
+ $(SML_LIB)/basis/basis.mlb
+ $(SML_LIB)/mlyacc-lib/mlyacc-lib.mlb
+ syntaxTree.sml
+ typeChecker.sml
+ prettyPrint.sml
+ evaluator.sml
+ boolf.yacc.sig
+ boolf.yacc.sml
+ boolf.lex.sml
+in
+ load-boolf.sml
+end
