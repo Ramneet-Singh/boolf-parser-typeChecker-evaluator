@@ -67,7 +67,7 @@ The grammar of the language is formally written through the following EBNF Defin
            | unop expr
            | "if" expr "then" expr "else" expr "fi"
            | "let" identifer "=" expr "in" expr "end"
-           | "fn" "(" identifier ":" type ")" ":" type "=>" expr.
+           | "fn" "(" identifier ":" type ")" ":" type "=>" expr
            | "(" expr expr ")"
            | "(" expr ")"
            | number
